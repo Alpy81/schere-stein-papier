@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background: repeating-linear-gradient(90deg, rgb(0, 255, 157), rgb(204, 0, 255));
+}
+
+:root {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+#makas {
+  color: rgb(209, 230, 116);
+}
+
+#tas {
+  color: rgb(142, 35, 242);
+}
+
+#kagit {
+  color: coral;
+}
+
+h1 {
+  color: black;
+  font-weight: 500;
+}
+
+.rounds {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    transition: 0.5s;
+  }
+  
+  .round-counter {
+      border-radius: 20px;
+      padding: 2px;
+      margin-top: 2rem;
+      margin-bottom: 20px;
+      display: none;
+      transition: 0.5s;
+    }
+  
+    .spiel-stand {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 100px;
+    }
+    
+    .spiel-stand .line {
+      height: 50px;
+      background-color: rgb(33, 19, 19);
+      width: 2px;
+    }
+
+    
+    .reset {
+      padding: 0.5rem;
+      margin-top: 3rem;
+      background-color: rgb(242, 165, 165);
+      
+    }
+    
+    .display-none {
+      display: none;
+    }
+    
+    .display-block {
+      display: block;
+    }
+  
+
+  
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
